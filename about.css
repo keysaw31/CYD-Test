@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600&family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap');
+
+.about-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #C1AC8F; 
+  font-family: 'quicksand';
+  height: 15vw;
+}
+.about-title {
+  width: 40%; 
+  color: black;
+  margin-left: 30vw;
+}
+.about-title h2 {
+  text-decoration: underline;
+  margin-bottom: .5vw; 
+  color: rgb(0, 0, 0);
+  margin-top: 4vw;
+}
+.learn-more-link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 1vw;
+}
+.about-content {
+  width: 50%; 
+}
+.about-content p {
+  font-size: 1vw; 
+  color: #000000; 
+  margin-bottom: 10px;
+  margin-left: -15vw;
+  width: 30vw;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 390px) {
+  .about-section {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    background-color: #C1AC8F;
+    font-family: 'Quicksand', sans-serif;
+    height: 90vw;
+  }
+  .about-title {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .about-title h2 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-size: 5vw; 
+    margin-top: 20px;
+    margin-left: 17vw !important;
+  }
+  .learn-more-link {
+    font-size: 4vw;
+    display: block; 
+    margin: 10px 0;
+    margin-bottom: -20vw;
+  }
+  .about-content {
+    width: 100%;
+  }
+  .about-content p {
+    font-size: 3.8vw; 
+    margin: 0 0 20px 0;
+    line-height: 1.4; 
+    text-align: justify; 
+    width: 100%;
+    margin-top: -70vw;    
+  }
+  #paragraphTwo {
+      margin-top: -1vw;  
+  }
+}
+
+/* iPhone XR, iPhone 12 Pro Pixel 7 S20 Ultra*/
+@media screen and (min-width: 391px) and (max-width: 414px) {	
+  .about-section {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    background-color: #C1AC8F;
+    font-family: 'Quicksand', sans-serif;
+    height: 90vw;
+  }
+  .about-title {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .about-title h2 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-size: 5vw; 
+    margin-top: 20px;
+    margin-left: 17vw !important;
+  }
+  .learn-more-link {
+    font-size: 4vw;
+    display: block; 
+    margin: 10px 0;
+    margin-bottom: -20vw;
+  }
+  .about-content {
+    width: 100%;
+  }
+  .about-content p {
+    font-size: 3.8vw; 
+    margin: 0 0 20px 0;
+    line-height: 1.4; 
+    text-align: justify; 
+    width: 100%;
+    margin-top: -70vw;    
+  }
+  #paragraphTwo {
+      margin-top: -1vw;  
+  }
+}
+/* iPhone 12 Pro MAx*/
+@media screen and (min-width: 430px) and (max-width: 431px) {	
+  .about-section {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    background-color: #C1AC8F;
+    font-family: 'Quicksand', sans-serif;
+    height: 90vw;
+  }
+  .about-title {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .about-title h2 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-size: 5vw; 
+    margin-top: 20px;
+    margin-left: 17vw !important;
+  }
+  .learn-more-link {
+    font-size: 4vw;
+    display: block; 
+    margin: 10px 0;
+    margin-bottom: -20vw;
+  }
+  .about-content {
+    width: 100%;
+  }
+  .about-content p {
+    font-size: 3.8vw; 
+    margin: 0 0 20px 0;
+    line-height: 1.4; 
+    text-align: justify; 
+    width: 100%;
+    margin-top: -70vw;    
+  }
+  #paragraphTwo {
+      margin-top: -1vw;  
+  }
+}
+
+/* Surface Duo*/
+@media screen and (min-width: 540px) and (max-width: 540px) {	
+  .about-section {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    background-color: #C1AC8F;
+    font-family: 'Quicksand', sans-serif;
+    height: 60vw;
+  }
+  .about-title {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .about-title h2 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-size: 4vw; 
+    margin-top: 20px;
+    margin-left: 24vw !important;
+  }
+  .learn-more-link {
+    font-size: 3vw;
+    display: block; 
+    margin: 10px 0;
+    margin-bottom: -20vw;
+  }
+  .about-content {
+    width: 100%;
+  }
+  .about-content p {
+    font-size: 2.8vw; 
+    margin: 0 0 20px 0;
+    line-height: 1.4; 
+    text-align: justify; 
+    width: 100%;
+    margin-top: -40vw;    
+  }
+  #paragraphTwo {
+      margin-top: -1vw;  
+  }
+}
+
+/* iPad Mini */
+@media screen and (min-width: 768px) and (max-width: 819px ) {
+  .about-section {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    background-color: #C1AC8F;
+    font-family: 'Quicksand', sans-serif;
+    height: 60vw;
+  }
+  .about-title {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .about-title h2 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-size: 4vw; 
+    margin-top: 20px;
+    margin-left: 24vw !important;
+  }
+  .learn-more-link {
+    font-size: 3vw;
+    display: block; 
+    margin: 10px 0;
+    margin-bottom: -20vw;
+  }
+  .about-content {
+    width: 100%;
+  }
+  .about-content p {
+    font-size: 2.8vw; 
+    margin: 0 0 20px 0;
+    line-height: 1.4; 
+    text-align: justify; 
+    width: 100%;
+    margin-top: -40vw;    
+  }
+  #paragraphTwo {
+      margin-top: -1vw;  
+  }
+}
+
+/*iPad Air  */
+@media screen and (min-width: 820px) and (max-width: 820px) {
+  .about-section {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    background-color: #C1AC8F;
+    font-family: 'Quicksand', sans-serif;
+    height: 60vw;
+  }
+  .about-title {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .about-title h2 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-size: 4vw; 
+    margin-top: 20px;
+    margin-left: 24vw !important;
+  }
+  .learn-more-link {
+    font-size: 3vw;
+    display: block; 
+    margin: 10px 0;
+    margin-bottom: -20vw;
+  }
+  .about-content {
+    width: 100%;
+  }
+  .about-content p {
+    font-size: 2.8vw; 
+    margin: 0 0 20px 0;
+    line-height: 1.4; 
+    text-align: justify; 
+    width: 100%;
+    margin-top: -40vw;    
+  }
+  #paragraphTwo {
+      margin-top: -1vw;  
+  }
+}
+
+/*Surface Pro 7  */
+@media screen and (min-width: 912px) and (max-width: 912px) {
+  .about-section {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    background-color: #C1AC8F;
+    font-family: 'Quicksand', sans-serif;
+    height: 60vw;
+  }
+  .about-title {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .about-title h2 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-size: 4vw; 
+    margin-top: 20px;
+    margin-left: 24vw !important;
+  }
+  .learn-more-link {
+    font-size: 3vw;
+    display: block; 
+    margin: 10px 0;
+    margin-bottom: -20vw;
+  }
+  .about-content {
+    width: 100%;
+  }
+  .about-content p {
+    font-size: 2.8vw; 
+    margin: 0 0 20px 0;
+    line-height: 1.4; 
+    text-align: justify; 
+    width: 100%;
+    margin-top: -40vw;    
+  }
+  #paragraphTwo {
+      margin-top: -1vw;  
+  }
+}
+
+/* iPad Pro */
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+  .about-section {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    background-color: #C1AC8F;
+    font-family: 'Quicksand', sans-serif;
+    height: 60vw;
+  }
+  .about-title {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .about-title h2 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-size: 4vw; 
+    margin-top: 20px;
+    margin-left: 24vw !important;
+  }
+  .learn-more-link {
+    font-size: 3vw;
+    display: block; 
+    margin: 10px 0;
+    margin-bottom: -20vw;
+  }
+  .about-content {
+    width: 100%;
+  }
+  .about-content p {
+    font-size: 2.8vw; 
+    margin: 0 0 20px 0;
+    line-height: 1.4; 
+    text-align: justify; 
+    width: 100%;
+    margin-top: -40vw;    
+  }
+  #paragraphTwo {
+      margin-top: -1vw;  
+  }
+}
+
+/* --------------------------------
+Smaller Laptops/Desktops
+-------------------------------- */
+
+@media screen and (min-width: 1440px) {
+/* Styles for screens wider than 1440px (common for larger MacBooks and iMacs) */
+
+}
+
+@media screen and (min-width: 1920px) {
+/* Styles for screens wider than 1920px */
+
+}
+
+@media screen and (min-width: 2560px) {
+/* Styles for very large screens */
+
+}

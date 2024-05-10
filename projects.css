@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap');
+.projects-section {
+   width: 100%;   
+  background-color:#FFF7EB; ; /* #C1AC8F */
+   color: #000000; 
+   text-align: center; 
+   padding: 20px 0; 
+   font-family: 'quicksand';
+   height: 15vw;
+ }
+ 
+ .projects-section p {
+   font-size: 1vw; 
+   margin: 0 0 20px 0; 
+   padding: 0 10%; 
+   box-sizing: border-box; 
+   width: 45em;
+   margin-left: 27vw;
+   margin-top: 3vw;
+   font-weight: bold;
+ }
+ 
+ .projects-btn {
+   display: inline-block; 
+   background-color: #322216; 
+   color: #ffffff; 
+   text-decoration: none; 
+   border: none; 
+   padding: 10px 20px;
+   font-family: 'quicksand';
+   font-size: 1vw;
+   cursor: pointer; 
+   transition: background-color 0.3s; 
+   margin-left: -1vw;
+   font-weight: bold;
+ }
+ 
+ .projects-btn:hover {
+   background-color: #6D523E; 
+ }
+ 
+ @media screen and (max-width: 390px) {
+  .projects-section {
+    background-color: #FFF7EB;
+    color: #000000;
+    text-align: center;
+    padding: 20px 10px; 
+    font-family: 'Quicksand', sans-serif;
+    height: auto; 
+  }
+
+  .projects-section p {
+    font-size: 4.5vw; 
+    margin: 0 auto 20px; 
+    padding: 0 5%; 
+    box-sizing: border-box;
+    width: auto; 
+    font-weight: bold;
+  }
+
+  .projects-btn {
+    font-size: 3vw; 
+    padding: 10px; 
+    margin-top: 10px; 
+    border-radius: 5px; 
+    width: auto; 
+    margin-left: 0; 
+  }
+
+  .projects-btn:hover {
+    background-color: #6D523E;
+  }
+}
+
+/* iPhone XR, iPhone 12 Pro Pixel 7 S20 Ultra*/
+@media screen and (min-width: 391px) and (max-width: 414px) {	
+  .projects-section {
+    background-color: #FFF7EB;
+    color: #000000;
+    text-align: center;
+    padding: 20px 10px; 
+    font-family: 'Quicksand', sans-serif;
+    height: auto; 
+  }
+
+  .projects-section p {
+    font-size: 4.5vw; 
+    margin: 0 auto 20px; 
+    padding: 0 5%; 
+    box-sizing: border-box;
+    width: auto; 
+    font-weight: bold;
+  }
+
+  .projects-btn {
+    font-size: 3vw; 
+    padding: 10px; 
+    margin-top: 10px; 
+    border-radius: 5px; 
+    width: auto; 
+    margin-left: 0; 
+  }
+}
+/* iPhone 12 Pro MAx*/
+@media screen and (min-width: 430px) and (max-width: 431px) {	
+  .projects-section {
+    background-color: #FFF7EB;
+    color: #000000;
+    text-align: center;
+    padding: 20px 10px; 
+    font-family: 'Quicksand', sans-serif;
+    height: auto; 
+  }
+
+  .projects-section p {
+    font-size: 4.5vw; 
+    margin: 0 auto 20px; 
+    padding: 0 5%; 
+    box-sizing: border-box;
+    width: auto; 
+    font-weight: bold;
+  }
+
+  .projects-btn {
+    font-size: 3vw; 
+    padding: 10px; 
+    margin-top: 10px; 
+    border-radius: 5px; 
+    width: auto; 
+    margin-left: 0; 
+  }
+}
+
+/* Surface Duo*/
+@media screen and (min-width: 540px) and (max-width: 540px) {	
+  .projects-section {
+    background-color: #FFF7EB;
+    color: #000000;
+    text-align: center;
+    padding: 20px 10px; 
+    font-family: 'Quicksand', sans-serif;
+    height: auto; 
+  }
+
+  .projects-section p {
+    font-size: 3vw; 
+    margin: 0 auto 20px; 
+    padding: 0 5%; 
+    box-sizing: border-box;
+    width: auto; 
+    font-weight: bold;
+  }
+
+  .projects-btn {
+    font-size: 3vw; 
+    padding: 10px; 
+    margin-top: 10px; 
+    border-radius: 5px; 
+    width: auto; 
+    margin-left: 0; 
+  }
+}
+
+/* iPad Mini */
+@media screen and (min-width: 768px) and (max-width: 819px ) {
+  .projects-section {
+    background-color: #FFF7EB;
+    color: #000000;
+    text-align: center;
+    padding: 20px 10px; 
+    font-family: 'Quicksand', sans-serif;
+    height: auto; 
+  }
+
+  .projects-section p {
+    font-size: 3vw; 
+    margin: 0 auto 20px; 
+    padding: 0 5%; 
+    box-sizing: border-box;
+    width: auto; 
+    font-weight: bold;
+  }
+
+  .projects-btn {
+    font-size: 3vw; 
+    padding: 10px; 
+    margin-top: 10px; 
+    border-radius: 5px; 
+    width: auto; 
+    margin-left: 0; 
+  }
+}
+
+/*iPad Air  */
+@media screen and (min-width: 820px) and (max-width: 820px) {
+  .projects-section {
+    background-color: #FFF7EB;
+    color: #000000;
+    text-align: center;
+    padding: 20px 10px; 
+    font-family: 'Quicksand', sans-serif;
+    height: auto; 
+  }
+
+  .projects-section p {
+    font-size: 3vw; 
+    margin: 0 auto 20px; 
+    padding: 0 5%; 
+    box-sizing: border-box;
+    width: auto; 
+    font-weight: bold;
+  }
+
+  .projects-btn {
+    font-size: 3vw; 
+    padding: 10px; 
+    margin-top: 10px; 
+    border-radius: 5px; 
+    width: auto; 
+    margin-left: 0; 
+  }
+}
+
+/*Surface Pro 7  */
+@media screen and (min-width: 912px) and (max-width: 912px) {
+  .projects-section {
+    background-color: #FFF7EB;
+    color: #000000;
+    text-align: center;
+    padding: 20px 10px; 
+    font-family: 'Quicksand', sans-serif;
+    height: auto; 
+  }
+
+  .projects-section p {
+    font-size: 3vw; 
+    margin: 0 auto 20px; 
+    padding: 0 5%; 
+    box-sizing: border-box;
+    width: auto; 
+    font-weight: bold;
+  }
+
+  .projects-btn {
+    font-size: 3vw; 
+    padding: 10px; 
+    margin-top: 10px; 
+    border-radius: 5px; 
+    width: auto; 
+    margin-left: 0; 
+  }
+}
+
+/* iPad Pro */
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+  .projects-section {
+    background-color: #FFF7EB;
+    color: #000000;
+    text-align: center;
+    padding: 20px 10px; 
+    font-family: 'Quicksand', sans-serif;
+    height: auto; 
+  }
+
+  .projects-section p {
+    font-size: 3vw; 
+    margin: 0 auto 20px; 
+    padding: 0 5%; 
+    box-sizing: border-box;
+    width: auto; 
+    font-weight: bold;
+  }
+
+  .projects-btn {
+    font-size: 3vw; 
+    padding: 10px; 
+    margin-top: 10px; 
+    border-radius: 5px; 
+    width: auto; 
+    margin-left: 0; 
+  }
+}
+
+/* --------------------------------
+Smaller Laptops/Desktops
+-------------------------------- */
+
+@media screen and (min-width: 1440px) {
+/* Styles for screens wider than 1440px (common for larger MacBooks and iMacs) */
+
+}
+
+@media screen and (min-width: 1920px) {
+/* Styles for screens wider than 1920px */
+
+}
+
+@media screen and (min-width: 2560px) {
+/* Styles for very large screens */
+
+}

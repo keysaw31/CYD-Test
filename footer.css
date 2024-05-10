@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600&family=Quicksand:wght@500&display=swap');
+.footer-section {
+   background-color: #EAEDE7; 
+   color: black;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+  margin-bottom: -1em;
+  font-family: 'Playfair display';
+  width: 100%;
+  height: 15em;
+}
+.top-footer, .bottom-footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.operational-hours, .social-media, .connect {
+   flex: 1;
+}
+footer h3 {
+   font-size: 2vw;
+}
+.operational-hours p {
+   font-size: 1.1em;
+   font-family: 'quicksand';
+   font-weight: bold;
+}
+.connect a {   
+   font-size: 1.5em;
+   font-family: 'quicksand';
+   font-weight: bold;
+   width: 10em;
+}
+.social-media img {
+   height: 3vw;
+   margin: 10px;
+   width: 3vw;
+}
+.connect a {
+   display: inline-block; 
+   padding: 10px 20px; 
+   font-size: 1em; 
+   background-color: #19110B;
+   color: #fff; 
+   text-align: center; 
+   border-radius: 5px;
+   text-decoration: none;
+   transition: background-color 0.3s; 
+}
+
+.connect a:hover, .connect a:focus {
+   background-color: #7c521b; 
+   text-decoration: none; 
+   color: #fff; 
+}
+
+.bottom-footer {
+   background-color: #19110B; 
+   padding-top: 10px;
+   margin-top: 10px;color: white;
+   font-family: 'Playfair Display';
+   height: 6em;
+}
+.bottom-footer a{
+   background-color: #19110B; 
+   padding-top: 10px;
+   margin-top: 10px;color: white;
+}
+.bottom-footer p {
+   margin-left: 1em;
+}
+.bottom-footer .by {
+   margin-left: -70em;
+   margin-bottom: .5em;
+   
+   font-family: quicksand;
+}
+.bottom-footer .evolvelink {
+   margin-left: -55.5vw;
+   font-family: quicksand;
+}
+.cydcopyright {
+   font-size: .7em;
+   margin-top: -1em;
+   margin-bottom: 3em;
+}  
+@media screen and (max-width: 767px) {
+   .footer-section {
+      background-color: #EAEDE7; 
+      color: black;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+     margin-top: 50em;
+     margin-bottom: -1em;
+     font-family: 'Playfair display';
+     height: 8em;
+   }
+   .top-footer, .bottom-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+   .operational-hours, .social-media, .connect {
+      flex: 1;
+   }
+   footer h3 {
+      font-size: 4vw;
+   }
+   .operational-hours p {
+      font-size: .7em;
+      font-family: 'quicksand';
+      font-weight: bold;
+   }
+   .connect a {   
+      font-size: .7em !important;
+      font-family: 'quicksand';
+      font-weight: bold;
+      width: 3em;
+   }
+   .social-media img {      
+      margin: 5px;
+      height: 5vw;
+      width: 5vw;
+   }
+   .connect a {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 1em; 
+      background-color: #19110B; 
+      color: #fff;
+      text-align: center; 
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s; 
+   }   
+   .connect a:hover, .connect a:focus {
+      background-color: #104919; 
+      text-decoration: none; 
+      color: #fff; 
+   }   
+   .bottom-footer {
+      background-color: #19110B; 
+      padding-top: 10px;
+      margin-top: 10px;color: white;
+      height: 5.5em;      
+   }
+   .bottom-footer a{
+      background-color: #19110B; 
+      padding-top: 10px;
+      margin-top: 10px;color: white;
+   }
+   .bottom-footer p {
+      margin-left: 1em;
+      margin-top: 5em;
+   }
+   .bottom-footer .by {
+      margin-top: -1em;
+      margin-left: -20em;
+      margin-bottom: .5em;
+   }
+   .bottom-footer .evolvelink {
+      margin-left: -17em;
+      margin-top: -4em !important;
+   }
+   .cydcopyright {
+      font-size: .7em;
+      margin-top: -1.5em;
+      margin-bottom: 3em;
+   }   
+}
+
+/* iPAD Mini */
+@media screen and (min-width: 768px) and (max-width: 819px) {
+   .footer-section {
+      background-color: #EAEDE7; 
+      color: black;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      margin-top: 60em;
+      margin-bottom: -1em;
+      font-family: 'Playfair Display', serif;
+      height: 9em;
+      width: 100%; 
+      box-sizing: border-box !important; 
+   }
+   .cydcopyright {
+      font-size: .7em;
+      margin-top: -.5em;
+   }   
+   .bottom-footer {
+      height: 6em;
+   }
+   .bottom-footer .by {
+      margin-top: -1em;
+      margin-left: -33em;
+      margin-bottom: .5em;
+   }
+   .bottom-footer .evolvelink {
+      margin-left: -29em;
+      margin-top: -4em !important;
+   }
+   .connect a {
+width: 5em;
+   }
+ }
+ 
+ /* iPad Air */
+ @media screen and (min-width: 820px) and (max-width: 912px) {
+   .footer-section {
+      background-color: #EAEDE7; 
+      color: black;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      margin-top: 60em;
+      margin-bottom: -1em;
+      font-family: 'Playfair Display', serif;
+      height: 9em;
+      width: 100%; 
+      box-sizing: border-box !important; 
+   }
+   .cydcopyright {
+      font-size: .7em;
+      margin-top: -.5em;
+   }   
+   .bottom-footer {
+      height: 6em;
+   }
+   .bottom-footer .by {
+      margin-top: -1em;
+      margin-left: -33em;
+      margin-bottom: .5em;
+   }
+   .bottom-footer .evolvelink {
+      margin-left: -29em;
+      margin-top: -4em !important;
+   }
+   .connect a {
+width: 5em;
+   }
+ }
+ 
+ /* iPad Pro */
+ @media (min-width: 1024px) and (max-width: 1366px) {
+   .footer-section {
+      background-color: #EAEDE7; 
+      color: black;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+     margin-top: 80em;
+     margin-bottom: -1em;
+     font-family: 'Playfair display';
+     height: 9em;
+   }
+   .cydcopyright {
+      font-size: .7em;
+      margin-top: -.5em;
+   }   
+   .connect a {
+      width: 5em;
+         }
+   .bottom-footer {
+      height: 6em;
+   }
+   .bottom-footer .by {
+      font-size: 1.3em;
+      margin-top: -1em;
+      margin-left: -32em;
+      margin-bottom: .5em;
+   }
+   .bottom-footer .evolvelink {
+      
+      font-size: 1.3em;
+      margin-left: -29em;
+      margin-top: -4em !important;
+   }
+   .connect a {
+      width: 5em;
+   }      
+ }

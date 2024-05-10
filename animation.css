@@ -1,0 +1,37 @@
+body {
+   animation: fadeInAnimation ease 2s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+ }
+ 
+ @keyframes fadeInAnimation {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+ .service-card, .planning-category, .photo-grid {
+   opacity: 0;
+   animation: fadeInUp ease 1s;
+   animation-fill-mode: forwards;
+   animation-delay: 0.5s; 
+ }
+ 
+ @keyframes fadeInUp {
+   0% {
+     opacity: 0;
+     transform: translateY(20px);
+   }
+   100% {
+     opacity: 1;
+     transform: translateY(0);
+   }
+ }
+ 
+ .quote-button:hover {
+   transform: scale(1.05);
+   background-color: #584a36; 
+ }
+ 

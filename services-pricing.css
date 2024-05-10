@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600&family=Quicksand:wght@500&display=swap');
+
+.service-pricing-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #C1AC8F;
+  font-family: 'quicksand';
+  height: 22vw;
+}
+
+.services, .pricing {
+   width: auto; 
+   margin-right: auto; 
+   flex: 10; 
+   margin: 0 5em; 
+ }
+ .services h2 {
+  color: #000000;
+  margin-bottom: 10px;
+  margin-inline-start: 13vw; 
+}
+ .pricing h2 {
+  color: #000000;
+  margin-bottom: 10px;
+  margin-inline-start: 5vw;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+li {
+white-space: nowrap;
+}
+.services img, .pricing img {
+  width: 20vw;
+  height: auto;
+  display: block;
+  margin-top: -4vw;
+}
+
+.services-columns {
+   display: flex;
+   justify-content: center; 
+ }
+ .services-columns ul {
+   width: 45%; 
+   padding: 0 20px; 
+   margin: 0 10px; 
+   list-style-type: disc;
+   list-style-position: inside; 
+ }
+.services-columns ul, .pricing ul {
+  width: 30%;
+  padding-left: 20px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+@media screen and (max-width: 390px) {
+  .service-pricing-section {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    background-color: #C1AC8F;
+  }
+
+  .services, .pricing {
+    width: 100%;
+    margin: 1em 0;
+  }
+
+  .services h2, .pricing h2 {
+    font-size: 5vw;
+  }
+
+  .services-columns {
+    display: block;
+  }
+
+  .services-columns ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;   
+    column-count: 2;         
+  }
+
+  .services-columns ul li {
+    font-size: 4vw;
+    -webkit-column-break-inside: avoid; 
+    page-break-inside: avoid;           
+    break-inside: avoid-column;         
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 5px;
+  }
+  
+  .services img, .pricing img {
+    width: 40vw; 
+    max-width: 100%; 
+    height: auto;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .pricing {
+    text-align: center;
+  }
+
+  .pricing ul {
+    padding-left: 0;
+    text-align: left;
+  }
+  .services-columns ul, .pricing ul {
+    width: 60%;
+    padding-left: 20px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+}
+
+/* iPhone XR, iPhone 12 Pro Pixel 7 S20 Ultra*/
+@media screen and (min-width: 391px) and (max-width: 414px) {	
+  .service-pricing-section {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    background-color: #C1AC8F;
+  }
+
+  .services, .pricing {
+    width: 100%;
+    margin: 1em 0;
+  }
+
+  .services h2, .pricing h2 {
+    font-size: 5vw;
+  }
+
+  .services-columns {
+    display: block;
+  }
+
+  .services-columns ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;   
+    column-count: 2;         
+  }
+
+  .services-columns ul li {
+    font-size: 4vw;
+    -webkit-column-break-inside: avoid; 
+    page-break-inside: avoid;           
+    break-inside: avoid-column;         
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 5px;
+  }
+  
+  .services img, .pricing img {
+    width: 40vw; 
+    max-width: 100%; 
+    height: auto;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .pricing {
+    text-align: center;
+  }
+
+  .pricing ul {
+    padding-left: 0;
+    text-align: left;
+  }
+  .services-columns ul, .pricing ul {
+    width: 60%;
+    padding-left: 20px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+}
+/* iPhone 12 Pro MAx*/
+@media screen and (min-width: 430px) and (max-width: 431px) {	
+  .service-pricing-section {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    background-color: #C1AC8F;
+  }
+
+  .services, .pricing {
+    width: 100%;
+    margin: 1em 0;
+  }
+
+  .services h2, .pricing h2 {
+    font-size: 5vw;
+  }
+
+  .services-columns {
+    display: block;
+  }
+
+  .services-columns ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;   
+    column-count: 2;         
+  }
+
+  .services-columns ul li {
+    font-size: 4vw;
+    -webkit-column-break-inside: avoid; 
+    page-break-inside: avoid;           
+    break-inside: avoid-column;         
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 5px;
+  }
+  
+  .services img, .pricing img {
+    width: 40vw; 
+    max-width: 100%; 
+    height: auto;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .pricing {
+    text-align: center;
+  }
+
+  .pricing ul {
+    padding-left: 0;
+    text-align: left;
+  }
+  .services-columns ul, .pricing ul {
+    width: 60%;
+    padding-left: 20px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+}
+
+/* Surface Duo*/
+@media screen and (min-width: 540px) and (max-width: 540px) {	
+  .service-pricing-section {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    background-color: #C1AC8F;
+  }
+
+  .services, .pricing {
+    width: 100%;
+    margin: 1em 0;
+    margin-top: 3em;
+  }
+
+  .services h2, .pricing h2 {
+    font-size: 5vw;
+  }
+
+  .services-columns {
+    display: block;
+  }
+
+  .services-columns ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;   
+    column-count: 2;         
+  }
+
+  .services-columns ul li {
+    font-size: 3vw;
+    -webkit-column-break-inside: avoid; 
+    page-break-inside: avoid;           
+    break-inside: avoid-column;         
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 5px;
+  }
+  
+  .services img, .pricing img {
+    width: 20vw; 
+    max-width: 100%; 
+    height: auto;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .pricing {
+    text-align: center;
+  }
+  .pricing ul {
+    padding-left: 0;
+    text-align: left;
+  }
+  .services-columns ul, .pricing ul {
+    width: 60%;
+    padding-left: 20px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+li {
+  white-space: nowrap;
+  font-size: 3vw;
+}
+}
+
+/* iPad Mini */
+@media screen and (min-width: 768px) and (max-width: 819px ) {
+  .service-pricing-section {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    background-color: #C1AC8F;
+  }
+
+  .services, .pricing {
+    width: 100%;
+    margin: 1em 0;
+    margin-top: 3em;
+  }
+
+  .services h2, .pricing h2 {
+    font-size: 5vw;
+  }
+
+  .services-columns {
+    display: block;
+  }
+
+  .services-columns ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;   
+    column-count: 2;         
+  }
+
+  .services-columns ul li {
+    font-size: 3vw;
+    -webkit-column-break-inside: avoid; 
+    page-break-inside: avoid;           
+    break-inside: avoid-column;         
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 5px;
+  }
+  
+  .services img, .pricing img {
+    width: 20vw; 
+    max-width: 100%; 
+    height: auto;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .pricing {
+    text-align: center;
+  }
+
+  .pricing ul {
+    padding-left: 0;
+    text-align: left;
+  }
+  .services-columns ul, .pricing ul {
+    width: 60%;
+    padding-left: 20px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+li {
+  white-space: nowrap;
+  font-size: 3vw;
+}
+}
+
+/*iPad Air  */
+@media screen and (min-width: 820px) and (max-width: 820px) {
+  .service-pricing-section {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    background-color: #C1AC8F;
+  }
+  .services, .pricing {
+    width: 100%;
+    margin: 1em 0;
+    margin-top: 3em;
+  }
+  .services h2, .pricing h2 {
+    font-size: 5vw;
+  }
+  .services-columns {
+    display: block;
+  }
+  .services-columns ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;   
+    column-count: 2;         
+  }
+  .services-columns ul li {
+    font-size: 3vw;
+    -webkit-column-break-inside: avoid; 
+    page-break-inside: avoid;           
+    break-inside: avoid-column;         
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 5px;
+  }  
+  .services img, .pricing img {
+    width: 20vw; 
+    max-width: 100%; 
+    height: auto;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .pricing {
+    text-align: center;
+  }
+  .pricing ul {
+    padding-left: 0;
+    text-align: left;
+  }
+  .services-columns ul, .pricing ul {
+    width: 60%;
+    padding-left: 20px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+li {
+  white-space: nowrap;
+  font-size: 3vw;
+}
+}
+
+/*Surface Pro 7  */
+@media screen and (min-width: 912px) and (max-width: 912px) {
+  .service-pricing-section {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    background-color: #C1AC8F;
+  }
+  .services, .pricing {
+    width: 100%;
+    margin: 1em 0;
+    margin-top: 7em;
+  }
+  .services h2, .pricing h2 {
+    font-size: 5vw;
+  }
+  .services-columns {
+    display: block;
+  }
+  .services-columns ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;   
+    column-count: 2;         
+  }
+  .services-columns ul li {
+    font-size: 3vw;
+    -webkit-column-break-inside: avoid; 
+    page-break-inside: avoid;           
+    break-inside: avoid-column;         
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 5px;
+  }  
+  .services img, .pricing img {
+    width: 20vw; 
+    max-width: 100%; 
+    height: auto;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .pricing {
+    text-align: center;
+  }
+  .pricing ul {
+    padding-left: 0;
+    text-align: left;
+  }
+  .services-columns ul, .pricing ul {
+    width: 60%;
+    padding-left: 20px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+li {
+  white-space: nowrap;
+  font-size: 3vw;
+}
+}
+
+/* iPad Pro */
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+  .service-pricing-section {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    background-color: #C1AC8F;
+  }
+  .services, .pricing {
+    width: 100%;
+    margin: 1em 0;
+    margin-top: 7em;
+  }
+  .services h2, .pricing h2 {
+    font-size: 5vw;
+  }
+  .services-columns {
+    display: block;
+  }
+  .services-columns ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;   
+    column-count: 2;         
+  }
+  .services-columns ul li {
+    font-size: 3vw;
+    -webkit-column-break-inside: avoid; 
+    page-break-inside: avoid;           
+    break-inside: avoid-column;         
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 5px;
+  }  
+  .services img, .pricing img {
+    width: 20vw; 
+    max-width: 100%; 
+    height: auto;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .pricing {
+    text-align: center;
+  }
+  .pricing ul {
+    padding-left: 0;
+    text-align: left;
+  }
+  .services-columns ul, .pricing ul {
+    width: 60%;
+    padding-left: 20px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+li {
+  white-space: nowrap;
+  font-size: 3vw;
+}
+}
+
+/* --------------------------------
+Smaller Laptops/Desktops
+-------------------------------- */
+
+@media screen and (min-width: 1440px) {
+/* Styles for screens wider than 1440px (common for larger MacBooks and iMacs) */
+
+}
+
+@media screen and (min-width: 1920px) {
+/* Styles for screens wider than 1920px */
+
+}
+
+@media screen and (min-width: 2560px) {
+/* Styles for very large screens */
+
+}

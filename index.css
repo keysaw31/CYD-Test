@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600&family=Quicksand:wght@500&display=swap');
+.banner-content {
+   position: absolute;
+   top: 5%; 
+   left: 30%; 
+   width: 40%; 
+}
+.background-image {
+  width: 100%;
+  height: 50em;
+  background: url('Images/CYD\ background.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; 
+  z-index: -1; 
+}
+.background-image::before {
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background: rgba(0, 0, 0, 0.2); 
+ z-index: 0;
+ height: 50em;
+}
+.collegeyardpro, h1 {
+   font-size: 3vw; 
+   color: white;
+   font-family: 'playfair display';
+   font-weight: 400;
+   white-space: nowrap;
+   margin-top: 27%;
+   margin-left: 10%;
+}
+.experts {
+   font-size: 1.5vw; 
+   color: white;
+   font-family: 'playfair display';
+   font-weight: 400;   
+   font-style: italic;
+   margin-top: -5%;
+   margin-left: 20% !important;
+   margin-bottom: 5%;
+   width: 100em;
+}
+.quote-button {  
+   display: inline-block;
+   padding: .3em;
+   color: white;
+   /* background-color: #C1AC8F; */
+   background-color: transparent;
+   text-decoration: none;
+   border-radius: 2em;
+   font-size: 1.3vw;
+   border-style: solid;
+   border-color: white;
+   transition: background-color 0.3s;
+   font-family: 'playfair';
+   font-weight: 400;   
+   font-style: italic;
+   white-space: nowrap;
+   margin-left: 45%;
+   animation: pulse 2s infinite alternate;    
+}
+.quote-button:hover{   
+   background-color: #584a36;
+   color: white;
+}
+@keyframes pulse {
+   from {
+       transform: scale(1);
+   }
+   to {
+       transform: scale(1.05);
+   }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+      .background-image {
+      max-width: 100%;
+      margin-top: -2em;
+      top: -1em;
+      height: 40em !important;
+      background: url('Images/CYD\ background.jpg') no-repeat center center !important;
+     }
+   .background-image::before {
+      display: none;
+     }
+   .collegeyardpro, h1 {
+      display: fixed;
+      white-space: nowrap;
+      font-size: 7vw;
+      color: white;
+      margin-left: -50%;
+      margin-top: 95%;
+   }
+   .experts {
+      margin-left:  -40% !important;
+      margin-top: -10%;
+      margin-bottom: 15%;
+      font-size: 4vw;
+      color: white;
+      width: 20em;
+}
+ h2 {
+   margin-left:  -44% !important;
+   margin-top: -15%;
+   margin-bottom: 15%;
+   font-size: 1.5em;
+   color: white;
+   width: 12em;
+}
+.quote-button {
+   margin-left: 12%;
+   padding: .5em;
+   color: white;
+   background-color: #C1AC8F;
+   text-decoration: none;
+   border-radius: 2em;
+   font-size: 1em;
+   border-style: solid;
+   border-color: white;
+   transition: background-color 0.3s;
+}
+.quote-button:hover{   
+   background-color: #584a36;
+   color: white;
+}
+}
+
+/* iPAD Mini */
+@media screen and (min-width: 768px) and (max-width: 819px) {
+   .background-image {
+      max-width: 100%;
+      margin-top: -2em;
+      top: -1em;
+      height: 40em !important;
+      background: url('Images/CYD\ background.jpg') no-repeat center center !important;
+     }
+   .background-image::before {
+      display: none;
+     }
+   .collegeyardpro, h1 {
+      display: fixed;
+      white-space: nowrap;
+      font-size: 7vw;
+      color: white;
+      margin-left: -55%;
+      margin-top: 55%;
+   }
+   .experts {
+      margin-left:  -40% !important;
+      margin-top: -10%;
+      margin-bottom: 15%;
+      font-size: 4vw;
+      color: white;
+      width: 20em;
+}
+ h2 {
+   margin-left:  -44% !important;
+   margin-top: -15%;
+   margin-bottom: 15%;
+   font-size: 1.5em;
+   color: white;
+   width: 12em;
+}
+.quote-button {
+   margin-left: 40%;
+   padding: .5em;
+   color: white;
+   background-color: #C1AC8F;
+   text-decoration: none;
+   border-radius: 2em;
+   font-size: 1em;
+   border-style: solid;
+   border-color: white;
+   transition: background-color 0.3s;
+}
+}
+
+/* iPad Air */
+@media screen and (min-width: 820px) and (max-width: 912px) {
+   .background-image {
+      max-width: 100%;
+      margin-top: -2em;
+      top: -1em;
+      height: 40em !important;
+      background: url('Images/CYD\ background.jpg') no-repeat center center !important;
+     }
+   .background-image::before {
+      display: none;
+     }
+   .collegeyardpro, h1 {
+      display: fixed;
+      white-space: nowrap;
+      font-size: 7vw;
+      color: white;
+      margin-left: -55%;
+      margin-top: 55%;
+   }
+   .experts {
+      margin-left:  -40% !important;
+      margin-top: -10%;
+      margin-bottom: 15%;
+      font-size: 4vw;
+      color: white;
+      width: 20em;
+}
+ h2 {
+   margin-left:  -44% !important;
+   margin-top: -15%;
+   margin-bottom: 15%;
+   font-size: 1.5em;
+   color: white;
+   width: 12em;
+}
+
+.quote-button {
+   margin-left: 40%;
+   padding: .5em;
+   color: white;
+   background-color: #C1AC8F;
+   text-decoration: none;
+   border-radius: 2em;
+   font-size: 1em;
+   border-style: solid;
+   border-color: white;
+   transition: background-color 0.3s;
+}
+}
+
+/* iPad Pro */
+@media screen and (min-width: 1024px) and (max-width: 1336px) {
+   .banner-content {
+       position: absolute;
+       top: 5%;
+       left: 30%;
+       width: 40%;
+   }
+   .background-image {
+       width: 100%;
+       height: 60em;
+       background: url('Images/CYD\ background.jpg') no-repeat center center;
+       background-size: cover;
+       background-position: center bottom !important; 
+       background-attachment: fixed;
+       z-index: -1;
+   }
+   .collegeyardpro, h1 {
+      display: fixed;
+      white-space: nowrap;
+      font-size: 7vw;
+      color: white;
+      margin-left: -55%;
+      margin-top: 55%;
+   }
+   .experts {
+      margin-left:  -40% !important;
+      margin-top: -10%;
+      margin-bottom: 15%;
+      font-size: 4vw;
+      color: white;
+      width: 20em;
+}
+ h2 {
+   margin-left:  -44% !important;
+   margin-top: -15%;
+   margin-bottom: 15%;
+   font-size: 1.5em;
+   color: white;
+   width: 12em;
+}
+.quote-button {
+   margin-left: 40%;
+   padding: .5em;
+   color: white;
+   background-color: #C1AC8F;
+   text-decoration: none;
+   border-radius: 2em;
+   font-size: 2vw;
+   border-style: solid;
+   border-color: white;
+   transition: background-color 0.3s;
+}
+.background-image::before {
+display: none;
+}
+}
