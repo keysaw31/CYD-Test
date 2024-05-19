@@ -1,0 +1,23 @@
+body {
+   font-family: Arial, sans-serif;
+}
+
+.form-step {
+   display: none;
+}
+
+.form-step.active {
+   display: block;
+}
+
+button {
+   margin: 10px;
+   padding: 5px 15px;
+}
+
+.calculator {
+   margin-top: 10vw;
+}
+h1{
+   color: black;
+}

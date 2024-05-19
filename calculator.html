@@ -4,8 +4,146 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Sign Up</title>
+   <link rel="stylesheet" href="index.css">
+   <link rel="stylesheet" href="footer.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="calculator.css">
 </head>
 <body>
-   
+
+  <section class="calculator">
+   <div id="calculatorForm">
+      <form action="https://formspree.io/f/maygabjy" method="POST" >
+        <!-- enctype="multipart/form-data">  this  is the code to upload images 
+          (so you can see them through email Upgrade Formspree $10/month (Personal))-->
+
+          <!-- Eddie's formspree code https://formspree.io/f/mbjvvola -->
+          
+        <!-- The steps mean the screen/web page -->
+        <div class="form-step active" id="step0">
+          <h2>Contact Information</h2>
+          <!-- Contact Info -->
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required placeholder="Enter your email">
+          
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+
+          <button type="button" onclick="previousStep()">Back</button>
+          <button type="button" onclick="nextStep()">Next</button>
+      </div>
+
+          <div class="form-step" id="step1">
+              <h2>How can we help you?</h2>
+              <!-- Type of Job -->
+              <label><input type="radio" name="type" value="Landscaping"> Landscaping</label>
+              <label><input type="radio" name="type" value="Moving"> Moving</label>
+              <button type="button" onclick="nextStep()">Next</button>
+          </div>
+          <div class="form-step" id="step2">
+              <h2>What kind of services are you looking for?</h2>
+              <h2>Select any of the below services that we offer.</h2>
+              <!-- Services-->
+              <label><input type="checkbox" name="services" value="Weeding"> Weeding</label>
+              <label><input type="checkbox" name="services" value="Trimming"> Trimming</label>
+              <label><input type="checkbox" name="services" value="Planting"> Planting</label>
+              <label><input type="checkbox" name="services" value="Edging"> Edging</label>
+              <label><input type="checkbox" name="services" value="Buckthorn Removal"> Buckthorn Removal</label>
+              <label><input type="checkbox" name="services" value="Rock Installation"> Rock Installation</label>
+              <label><input type="checkbox" name="services" value="Raking"> Raking</label>
+              <label><input type="checkbox" name="services" value="Mulching"> Mulching</label>
+              <label><input type="checkbox" name="services" value="Sodding"> Sodding</label>
+              <label><input type="checkbox" name="services" value="Rock Removal"> Rock Removal</label>
+            <button type="button" onclick="previousStep()">Back</button>
+            <button type="button" onclick="nextStep()">Next</button>
+        </div>
+        
+        <div class="form-step" id="step3">
+            <h1>Customize your project!</h1>
+            <h2>How much work do you need done?</h2>
+              <!-- Customization options -->
+              <label><input type="checkbox" name="projectSize" value="Complete renovation"> Complete renovation</label>
+              <label><input type="checkbox" name="projectSize" value="Medium size"> Medium size</label>
+              <label><input type="checkbox" name="projectSize" value="Larger project"> Larger project</label>
+              <label><input type="checkbox" name="projectSize" value="Smaller changes"> Smaller changes</label>
+            
+              <h2>Do you have poison ivy on the property?</h2>
+                <!-- Property details -->
+                <label><input type="checkbox" name="poisonIvy" value="Yes"> Yes</label>
+                <label><input type="checkbox" name="poisonIvy" value="No"> No</label>
+
+              <h2>Do you need the yard waste hauled away</h2>
+              <h3>Fees start at $150 per truck load</h3>
+                <!-- Yard Waste-->
+                <label><input type="checkbox" name="wasteHaulAway" value="Yes"> Yes I want haul away</label>
+                <label><input type="checkbox" name="wasteHaulAway" value="No"> No, I'll take care of it</label>
+
+               <h2>Description of yard project</h2>
+                <label for="materialsOnsite">Are materials onsite?</label>
+                <input type="text" id="materialsOnsite" name="materialsOnsite" placeholder="Yes/No/Details">
+            
+                <label for="photoUpload">Upload photos here</label>
+                <input type="file" id="photoUpload" name="photoUpload" accept="image/*" multiple>                
+              <button type="button" onclick="previousStep()">Back</button>
+              <button type="button" onclick="nextStep()">Next</button>
+          </div>
+
+          <div class="form-step" id="step4">
+            <h2>How many workers do you want to hire?</h2>
+            <!-- Workers -->
+            <label><input type="radio" name="workers" value="2"> 2</label>
+            <label><input type="radio" name="workers" value="3"> 3</label>
+            <label><input type="radio" name="workers" value="4"> 4</label>
+        
+            <h2>How many hours?</h2>
+            <!-- Hours -->
+            <label><input type="radio" name="hours" value="3"> 3 hours</label>
+            <label><input type="radio" name="hours" value="4"> 4-5 hours</label>
+            <label><input type="radio" name="hours" value="6"> 6-7 hours</label>
+            <label><input type="radio" name="hours" value="8"> 8 hours</label>
+           
+            <h2>What type of property is this?</h2>
+              <!-- Type of Property-->
+              <label><input type="radio" name="propertyType" value="Home where I live"> Home where I live</label>
+              <label><input type="radio" name="propertyType" value="Townhouse or apartment"> Townhouse or apartment</label>
+              <label><input type="radio" name="propertyType" value="House that I rent"> House that I rent</label>
+              <label><input type="radio" name="propertyType" value="Place of business"> Place of business</label>
+            
+              <h2>When does the project need to be completed?</h2>
+              <!-- Length of Completion -->
+              <label><input type="radio" name="projectTimeline" value="Within 24-48 hours"> Within 24-48 hours</label>
+              <label><input type="radio" name="projectTimeline" value="In the next 2-3 days"> In the next 2-3 days</label>
+              <label><input type="radio" name="projectTimeline" value="Sometime this week"> Sometime this week</label>
+              <label><input type="radio" name="projectTimeline" value="Later this month"> Later this month</label>
+              <label><input type="radio" name="projectTimeline" value="I am flexible"> I am flexible</label>
+
+              <button type="button" onclick="previousStep()">Back</button>
+              <button type="button" onclick="nextStep()">Next</button>
+          </div>
+
+          <div class="form-step" id="step5">
+            <!-- Screen that shows the calculations -->
+            <h2>Project Estimate</h2>
+            <p>Number of Workers: <span id="numWorkers"></span></p>
+            <input type="hidden" name="numWorkers" id="numWorkersInput">
+            
+            <p>Hours of Work: <span id="hoursWorked"></span></p>
+            <input type="hidden" name="hoursWorked" id="hoursWorkedInput">
+            
+            <p>Total Cost: $<span id="totalCost"></span></p>
+            <input type="hidden" name="totalCost" id="totalCostInput">
+            
+            <p>Travel Fee: $<span id="travelFee"></span></p>
+            <input type="hidden" name="travelFee" id="travelFeeInput">
+            
+            <button type="button" onclick="previousStep()">Back</button>
+            <button type="submit">Submit</button>
+          </div>        
+        </form>
+   </div>
+  </section>
+
+   <script src="calculator.js"></script>
+
 </body>
 </html>
